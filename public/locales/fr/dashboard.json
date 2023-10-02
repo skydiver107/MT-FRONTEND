@@ -1,0 +1,19 @@
+{
+  "joined_in": "Inscrit",
+  "current balance": "Solde actuel",
+  "general": "Général",
+  "my_information": "Mes informations",
+  "settings": "Paramètres",
+  "send_feedback": "Envoyer des commentaires",
+  "policy_privacy": "Politique de confidentialité",
+  "tos": "Termes et conditions",
+  "log_out": "Se déconnecter",
+  "wallet": "Portefeuille",
+  "dashboard": "Tableau de bord",
+  "transaction": "Transaction",
+  "need_to_fill": "Bienvenue sur Moneto, votre inscription est presque terminée. Veuillez prendre un moment pour mettre à jour le profil de votre compte. Pour payer avec Moneto, vous devez approvisionner votre portefeuille à partir de votre compte bancaire ou de votre carte de crédit.",
+  "profile_warning": "Veuillez prendre un moment pour mettre à jour le profil de votre compte.",
+  "have_logged_in": "Vous êtes connecté en tant que",
+  "notification": "Notification",
+  "account_profile": "Profil du compte"
+}

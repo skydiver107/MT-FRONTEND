@@ -1,0 +1,19 @@
+{
+  "joined_in": "Joined in",
+  "current balance": "Current Balance",
+  "general": "General",
+  "my_information": "My Information",
+  "settings": "Settings",
+  "send_feedback": "Send Feedback",
+  "policy_privacy": "Privacy Policy",
+  "tos": "Terms and Conditions",
+  "log_out": "Log Out",
+  "wallet": "Wallet",
+  "dashboard": "Dashboard",
+  "transaction": "Transaction",
+  "need_to_fill": "Welcome to Moneto, your registration is almost complete. Please take a moment to update your account profile. To pay with Moneto you need to fund your wallet from your bank account or credit card.",
+  "profile_warning": "Please take a moment to update your account profile.",
+  "have_logged_in": "You have logged in as",
+  "notification": "Notification",
+  "account_profile": "Account Profile"
+}

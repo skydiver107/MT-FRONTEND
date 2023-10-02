@@ -1,0 +1,15 @@
+{
+  "full_name": "Nom complet",
+  "date_of_birth": "Date de naissance",
+  "contact_number": "Numéro de contact",
+  "gender": "Sexe",
+  "address": "Adresse",
+  "city": "Ville",
+  "state": "État",
+  "zip_code": "Code postal",
+  "us_citizen": "Êtes-vous un citoyen américain ?",
+  "submit": "Soumettre",
+  "back": "Retour",
+  "submitted": "Envoyé avec succès !",
+  "account_profile": "Profil du compte"
+}

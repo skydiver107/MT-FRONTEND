@@ -1,0 +1,16 @@
+{
+  "balances": "Soldes",
+  "name": "Nom",
+  "price": "Prix",
+  "total": "Totale",
+  "bank_account": "Compte bancaire",
+  "linked_accounts": "Comptes liés",
+  "withdraw_transfer": "RETRAIT/TRANSFERT",
+  "withdraw": "RETRAIT",
+  "transfer": "Transfert",
+  "link_accounts": "LIEN DES COMPTES",
+  "link": "LIEN",
+  "accounts": "COMPTES",
+  "wallet": "Portefeuille",
+  "add_funds": "AJOUTER DES FONDS"
+}

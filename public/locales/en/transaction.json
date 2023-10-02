@@ -1,0 +1,7 @@
+{
+  "transactions": "Transactions(MTC)",
+  "all": "ALL",
+  "deposits": "DEPOSITS",
+  "transfers": "TRANSFERS",
+  "withdrawal": "WITHDRAWAL"
+}

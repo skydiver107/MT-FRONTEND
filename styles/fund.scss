@@ -1,0 +1,199 @@
+.fundtype_button {
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 80px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bottom_button_wrapper {
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  justify-content: center;
+  width: 1024px;
+  @media only screen and (max-width: 1024px) {
+    width: 90%;
+  }
+}
+
+.selectcard_button_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 1024px;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.bankcard_button_wrapper {
+  display: block;
+  width: 1024px;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.cancel_button {
+  width: 100%;
+  height: 50px;
+  border-radius: 90px;
+  background: #cbcfd3;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancel_button_content {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 700;
+}
+
+.mtc_balance_area {
+  border-radius: 10px;
+  background: var(
+    --degradado-1,
+    linear-gradient(320deg, #5c52b3 0%, #4478d0 58.85%, #1eb4ff 100%)
+  );
+  padding: 10px 24px;
+}
+
+.mtc_balance_title {
+  color: #fff;
+  font-size: 16px;
+  font-family: Karla;
+  font-weight: 500;
+}
+
+.mtc_balance_content {
+  color: #fff;
+  font-size: 35px;
+  font-family: Karla_Bold;
+  font-weight: 500;
+}
+
+.mtc_selected_value {
+  color: #000;
+  font-size: 34px;
+  font-family: Karla_Bold;
+  font-weight: 700;
+}
+
+.mtc_selected_currency {
+  color: #979797;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 500;
+}
+
+.tabs_wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.confirm_balance {
+  color: #000;
+  font-size: 20px;
+  font-family: Karla_Bold;
+  font-weight: 500;
+}
+
+.confirm_fee {
+  color: #000;
+  font-size: 16px;
+  font-family: Karla_Bold;
+  font-weight: 500;
+}
+
+//transaction page
+
+.transaction_history_button {
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 71px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tx_inner_circle {
+  width: 51px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background: #90ce7b;
+}
+
+.tx_bankname {
+  color: #6b6b6b;
+  font-size: 16px;
+  font-family: Karla_Bold;
+  font-weight: 500;
+}
+
+.tx_type {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 300;
+}
+
+// for tx modal
+.txn_details {
+  color: #000;
+  font-size: 20px;
+  font-family: Karla_ExtraBold;
+  font-weight: 800;
+}
+
+.tx_bankname_bold {
+  color: #000;
+  font-size: 16px;
+  font-family: Karla_Bold;
+  font-weight: 700;
+}
+
+.tx_category {
+  color: #979797;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 300;
+}
+
+.tx_result {
+  color: #000;
+  text-align: right;
+  font-size: 16px;
+  font-family: Karla;
+  font-weight: 300;
+}
+
+.bank_account_detail_wrapper {
+  padding: 10px 20px;
+}
+
+.bank_account_title {
+  color: #6b6b6b;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bank_account_content {
+  color: #000;
+  font-family: Karla_Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

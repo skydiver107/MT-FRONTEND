@@ -1,0 +1,14 @@
+{
+  "app_title": "Application Moneto",
+  "security": "Sécurité",
+  "settings": "Paramètres",
+  "set_up_pin": "Configurer le code PIN",
+  "login_with_face_id": "Connexion avec Face ID",
+  "login_with_fingerprint": "Connexion avec empreinte digitale",
+  "notification": "Notification",
+  "others": "Autres",
+  "language": "Langue",
+  "base_currency": "Devise de base",
+  "edit": "Modifier",
+  "change_password": "Modifier le mot de passe"
+}

@@ -1,0 +1,16 @@
+{
+  "balances": "Balances",
+  "name": "Name",
+  "price": "Price",
+  "total": "Total",
+  "bank_account": "Bank Account",
+  "linked_accounts": "Linked Accounts",
+  "withdraw_transfer": "WITHDRAW/TRANSFER",
+  "withdraw": "WITHDRAW",
+  "transfer": "Transfer",
+  "link_accounts": "LINK ACCOUNTS",
+  "link": "LINK",
+  "accounts": "ACCOUNTS",
+  "wallet": "Wallet",
+  "add_funds": "ADD FUNDS"
+}

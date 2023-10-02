@@ -1,0 +1,414 @@
+.background {
+  background: (
+    linear-gradient(320deg, #5c52b3 0%, #4478d0 58.85%, #1eb4ff 100%)
+  );
+  background-size: cover;
+  background-position: center;
+  // width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0px !important;
+}
+
+.button-wrapper {
+  &.btn-border {
+    background: #393cdc
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    padding: 0px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden !important;
+    border-width: 1px;
+    border-color: #393cdc;
+    // .button {
+    //   height: 57px;
+    // }
+  }
+
+  .button {
+    background-color: #f8f8f8;
+    // box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Karla;
+    align-items: center;
+    text-align: center;
+    padding: 8px 32px;
+    height: 55px !important;
+    color: #362566;
+    border: none !important;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+    &.purple {
+      background-color: #1380ff !important;
+      color: #fff !important;
+    }
+
+    &.purple:not([disabled]):hover {
+      // background-color: #f8f8f8 !important;
+      background-color: #1380ff !important;
+      color: #362566 !important;
+    }
+
+    &.purple:not([disabled]):active {
+      background-color: #1380ff !important;
+      color: #eee !important;
+    }
+
+    &.lg-padding {
+      padding: 16px 64px !important;
+    }
+
+    &.xl-padding {
+      padding: 16px 112px !important;
+    }
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  button:not([disabled]):hover {
+    // background-color: #dbeef8;
+    color: #000 !important;
+    fill: #000;
+
+    svg {
+      fill: #000 !important;
+    }
+  }
+
+  button:not([disabled]):active {
+    background-color: #f8f8f8ee !important;
+    color: #362566 !important;
+
+    svg {
+      fill: #362566 !important;
+    }
+  }
+}
+
+.back_button {
+  margin-left: 20px;
+  @media only screen and (max-width: 1024px) {
+    margin-left: 10px;
+  }
+  .button-wrapper {
+    .button {
+      background-color: darkgray;
+      color: black;
+      height: 45px !important;
+      width: 200px;
+      @media only screen and (max-width: 1024px) {
+        width: 160px;
+      }
+    }
+  }
+}
+.form_submit_button {
+  .button-wrapper {
+    .button {
+      height: 45px !important;
+      width: 200px;
+      @media only screen and (max-width: 1024px) {
+        width: 160px;
+      }
+    }
+  }
+}
+
+// .profile_button {
+//   height: 59px;
+// }
+
+.button_warning_text {
+  color: #f14545;
+  font-size: 10px;
+  font-family: Karla;
+  font-weight: 500;
+  line-height: 10px;
+  margin-top: 2px;
+}
+
+.tos_content {
+  color: #464646;
+  font-size: 13px;
+  font-family: Karla;
+  font-weight: 300;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-33 {
+  width: 33% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-25 {
+  width: 25% !important;
+}
+
+.ml-4 {
+  margin-left: 16px;
+}
+
+// for mui
+.MuiInputBase-root {
+  &.MuiOutlinedInput-root {
+    &.MuiInputBase-colorPrimary {
+      &.MuiInputBase-formControl {
+        &.MuiInputBase-adornedEnd {
+          border-radius: 30px;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+.swiper {
+  &.swiper-initialized {
+    &.swiper-horizontal {
+      &.swiper-backface-hidden {
+        min-height: 100vh;
+      }
+    }
+  }
+}
+
+// for scrollbar
+* {
+  scrollbar-color: #1a0e3d !important;
+  scrollbar-width: thin !important;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+  transition-property: opacity, background-color, color;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: #1a0e3d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22124f;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #180d39;
+}
+
+::-webkit-scrollbar-track {
+  background: #5e259b65;
+}
+
+// notification page
+.notification_title {
+  color: #000;
+  font-size: 16px;
+  font-family: Karla_Bold;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.notification_content {
+  color: #6b6b6b;
+  font-size: 10px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 10px;
+}
+
+.notification_time {
+  color: #393cdc;
+  font-size: 12px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  // width: 100%;
+  min-width: 50px;
+  margin-top: 12px;
+}
+
+.notification_wrapper {
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+//settings page
+.setting_title {
+  color: #000;
+  font-size: 24px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.setting_content {
+  color: #595959;
+  font-size: 14px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.setting_subtitle {
+  color: #000;
+  font-size: 14px;
+  font-family: Karla_Bold;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.setting_card_wrapper {
+  padding: 10px 20px 30px 30px;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.setting_button {
+  cursor: pointer;
+}
+
+.setting_language_btn {
+  color: #393cdc;
+  text-align: right;
+  font-size: 14px;
+  font-family: Karla_Bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+// for pinsetup page
+.pin_page {
+  display: flex;
+  justify-content: center;
+  background: var(
+    --degradado-1,
+    linear-gradient(320deg, #5c52b3 0%, #4478d0 58.85%, #1eb4ff 100%)
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.pin_title {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: Karla_Bold;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.pin_text {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+// .number_pad {
+// }
+
+.number_button {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background-color: white;
+  color: #767676;
+  text-align: center;
+  font-size: 34px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+input[data-id="0"][type="password"] {
+  border-radius: 50% 0 0 50% !important;
+}
+
+input[data-id="5"][type="password"] {
+  border-radius: 0 50% 50% 0 !important;
+}
+
+// for feedback page
+.feedback_title {
+  color: #000;
+  font-size: 34px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.css-z1o969-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px !important;
+  padding: 15px 30px !important;
+}

@@ -1,0 +1,14 @@
+{
+  "app_title": "Moneto aplicación",
+  "security": "Seguridad",
+  "settings": "Ajustes",
+  "set_up_pin": "Configurar PIN",
+  "login_with_face_id": "Iniciar sesión con Face ID",
+  "login_with_fingerprint": "Iniciar sesión con huella digital",
+  "notification": "Notificación",
+  "others": "Otros",
+  "language": "idioma",
+  "base_currency": "Divisa base",
+  "edit": "Editar",
+  "change_password": "Cambiar la contraseña"
+}

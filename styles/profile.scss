@@ -1,0 +1,100 @@
+.profile_header {
+  background: (
+    linear-gradient(320deg, #5c52b3 0%, #4478d0 58.85%, #1eb4ff 100%)
+  );
+  padding-bottom: 120px;
+}
+
+.profile_submit_header {
+  background: (
+    linear-gradient(320deg, #5c52b3 0%, #4478d0 58.85%, #1eb4ff 100%)
+  );
+  padding-bottom: 120px;
+}
+
+.avatar_area {
+  margin-top: -80px;
+}
+
+.avatar_area_submit {
+  margin-top: -100px;
+}
+.avatar_area_submit input {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  height: 100px;
+  width: 100px;
+  left: 46%;
+  top: 15.5%;
+  z-index: 10;
+  @media only screen and (max-width: 1024px) {
+    left: 37%;
+    top: 11%;
+  }
+}
+
+.profile_area {
+  background-color: #ffff;
+  margin-top: -80px;
+}
+.profile_submit_area {
+  margin-top: 0px !important;
+}
+
+.profile_name {
+  color: #000;
+  font-size: 24px;
+  font-family: Karla;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+.profile_date {
+  color: #4737da;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 500;
+}
+
+.profile_data {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-family: Karla;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.current_balance {
+  color: #000;
+  font-size: 18px;
+  font-family: Karla;
+  font-weight: 700;
+}
+
+.general_wrapper {
+  width: 1025px;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.profile_general {
+  color: #000;
+  font-size: 18px;
+  font-family: Karla;
+  font-weight: 700;
+}
+
+.normal_font {
+  color: #000;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 700;
+  line-height: 22px;
+}
+//for Mui
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 30px !important;
+}

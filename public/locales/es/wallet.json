@@ -1,0 +1,16 @@
+{
+  "balances": "Saldos",
+  "name": "Nombre",
+  "price": "Precio",
+  "total": "Total",
+  "bank_account": "Cuenta Bancaria",
+  "linked_accounts": "Cuentas Vinculadas",
+  "withdraw_transfer": "RETIRAR/TRANSFERIR",
+  "withdraw": "RETIRAR",
+  "transfer": "TRANSFERIR",
+  "link_accounts": "ENLACE CUENTAS",
+  "link": "ENLACE",
+  "accounts": "CUENTAS",
+  "wallet": "Cartera",
+  "add_funds": "Añadir Fondos"
+}

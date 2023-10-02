@@ -1,0 +1,21 @@
+.header_logo {
+  display: flex;
+  justify-content: center;
+  background: var(
+    --degradado-1,
+    linear-gradient(320deg, #5c52b3 0%, #4478d0 58.85%, #1eb4ff 100%)
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header_button {
+  cursor: pointer;
+}
+
+.header_button_title {
+  color: #fff;
+  font-size: 22px;
+  font-family: Karla;
+  font-weight: 500;
+}

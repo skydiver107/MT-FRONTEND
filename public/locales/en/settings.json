@@ -1,0 +1,14 @@
+{
+  "app_title": "Moneto App",
+  "security": "Security",
+  "settings": "Settings",
+  "set_up_pin": "Set up PIN",
+  "login_with_face_id": "Login with Face ID",
+  "login_with_fingerprint": "Login with Fingerprint",
+  "notification": "Notification",
+  "others": "Others",
+  "language": "Language",
+  "base_currency": "Base Currency",
+  "edit": "Edit",
+  "change_password": "Change Password"
+}

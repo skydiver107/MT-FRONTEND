@@ -1,0 +1,75 @@
+.welcome_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome_title {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 50px;
+  font-family: Montserrat_Bold;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+}
+
+.welcome_content {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-family: Karla;
+  //   font-weight: 700;
+  line-height: 22px;
+  margin-top: 20px;
+  width: 60%;
+}
+.welcome_button_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.welcome_button {
+  border-radius: 50px;
+  background: var(--compos-light, #393cdc);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 60px;
+  width: 300px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  .welcome_button_content {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: Karla;
+    line-height: 18px;
+    margin-top: 21px;
+  }
+}
+
+.page_title {
+  color: #545fbd;
+  text-align: center;
+  font-size: 36px;
+  font-family: Karla_ExtraBold;
+  font-weight: 800;
+}
+
+.page_content {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: Karla;
+  font-weight: 300;
+  line-height: 22px;
+  width: 70%;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: black !important;
+}
